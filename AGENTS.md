@@ -44,7 +44,7 @@ updated: 2026-11-08
 - 走本节点专属 Run 邮箱 `run_4c69a007890b`；开工第一件事 `orca orchestration run-use --id run_4c69a007890b` 认领，治 `consumer_fenced`。
 - 收信 `orca orchestration check --run run_4c69a007890b --json`，处理完 `--ack <deliveryId>` 才能收下一批（FIFO 卡批）。
 - 找 00_01 公共簇投 `run_1cd4e1700daf`。
-- 任务板巡检：`gh issue list --repo goodbj/AI_Memory --state open --label "部门-07 AI2Blender"` 看派给本部门的活；领到的在本部门仓库建 issue 跟踪。
+- 任务板巡检：`gh issue list --repo goodbj/AI_Memory --state open --label "部门-07 动捕"` 看派给本部门的活；领到的在本部门仓库建 issue 跟踪。
 
 ## 上报锚点与调度分层（2026-11-08 老泡儿拍板，Issue #143/#144）
 
